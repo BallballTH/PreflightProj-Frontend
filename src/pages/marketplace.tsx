@@ -169,6 +169,9 @@ function Marketplace() {
         }}
       >
         <h1>Marketplace</h1>
+        <p style={{ margin: 0 }}>
+        Logged in as: <strong>{sessionStorage.getItem("userName") || "Guest"}</strong>
+      </p>
         <button onClick={handleLogout}>Logout</button>
       </div>
 
