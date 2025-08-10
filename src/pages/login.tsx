@@ -30,7 +30,7 @@ function Login() {
   return (
     <main className="login-container">
       <article>
-        <h1 style={{ textAlign: "center" }}>Login!</h1>
+        <h1 style={{ textAlign: "center" }}>Login</h1>
         <form onSubmit={handleLogin}>
           <label>
             Username
